@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDld_ja9KmPyioQBIKoEVmt2o8K6KhM4XM&callback=initMap&libraries=&v=weekly" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <navbar>
+        <div class="navbar__container">
+            <div id="navbar__logo"></div>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu" id="mobile-menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">ANASAYFA</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">OTELİMİZ</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#activities" class="navbar__links" id="activities-page">AKTİVİTELER</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#users" class="navbar__links" id="users-page">YORUMLAR</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#contact" class="navbar__links" id="contact-page">İLETİŞİM</a>
+                </li>
+            </ul>
+        </div>
+    </navbar>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">Hey merhaba! Hayatındaki en muhteşem tatil deneyimini yaşamaya ve gizemlerle dolu bu dünyaya girmeye ne dersin?</h1>
+            <button class="hero__btn"><a href="#">OTEL HAKKINDA</a></button>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+        <div class="main_title">OTELİMİZ HAKKINDA</div>
+        <div class="title-line"></div>
+        <div class="main__container">
+            <div class="main__content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris. Sodales neque sodales ut etiam sit amet nisl purus in. Urna neque viverra
+                justo nec ultrices dui.</br>
+                </br>
+                </br>Faucibus ornare suspendisse sed nisi. Orci sagittis eu volutpat odio Consequat semper viverra nam libero justo laoreet sit. Enim ut sem viverra aliquet eget sit amet tellus cras. Vestibulum mattis ullamcorper velit sed ullamcorper morbi
+                tincidunt.
+                </br>
+                </br>
+                </br> Eu augue ut lectus arcu bibendum. Quam adipiscing vitae proin sagittis nisl rhoncus.</br>
+                </br>
+                </br>
+                </br> SİZ DEĞERLİ MİSAFİRLERİMİZİ BEKLİYORUZ...
+            </div>
+            <div class="main_container_right_img">
+            </div>
+        </div>
+    </div>
+
+    <!-- activities Section -->
+
+    <div class="activities" id="activities">
+        <div class="main_title">AKTİVİTELER</div>
+        <div class="title-line__"></div>
+        <div class="activities_main_content">Muhteşem bir doğa manzarası, kuş sesleri ve çakıllı yollarla çevril otelimizde dağ </br> ve dağ hayvanları ile yapılacak eşsiz aktiviteler.</div>
+        <div class="activities__wrapper">
+            <div class="activities__card" id="activities1">
+                <div class="card_title">DAĞ YÜRÜYÜŞÜ</div>
+                <div class="card_items">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </div>
+            <div class="activities__card" id="activities2">
+                <div class="card_title">DAĞ AVCILIK</div>
+                <div class="card_items">Urna neque viverra justo nec ultrices dui Faucibus ornare suspendisse sed nisi Orci sagittis eu volutpat odio. Consequat semper viverra.</div>
+            </div>
+            <div class="activities__card" id="activities3">
+                <div class="card_title">AYI TAKİBİ</div>
+                <div class="card_items">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
+            </div>
+            <div class="activities__card" id="activities4">
+                <div class="card_title">KUŞ GÖÇLERİ</div>
+                <div class="card_items">Urna neque viverra justo nec ultrices dui Faucibus ornare suspendisse sed nisi Orci sagittis eu volutpat odio. Consequat semper viverra.</div>
+
+            </div>
+        </div>
+        <div class="card_content_bottom">
+            <div class="card_content_bottom_2" id="bottom_item">OTELİMİZ HANGİ DÖNEMLERDE AÇIK? </br>Otelimiz yılın 365 günü siz değerli misafirlerimize hizmet vermekted olup, aktiviteler mevsimlere göre farklılıklar göstermektedir. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Eu
+                augue ut lectus arcu bibendum. Quam adipiscing vitae proin sagittis nisl rhoncus.</div>
+        </div>
+    </div>
+
+    <!--Activities Rate-->
+
+    <div class="activities_rate" id="activities">
+        <div class="main_title">HANGİ MEVSİMDE HANGİ AKTİVİTE?</div>
+        <div class="title-line__"></div>
+        <div class="activities_rate_main_content">Aşağıdaki tabloda 4 mevsimde hangi aktivitenin hangi oranda yapılabileceğini bulabilirsiniz.</div>
+        <div class="activities_rate_card">
+            <div class="activities_card_title">DAĞ YÜRÜYÜŞÜ</div>
+            <div class="activities_card_title">AVCILIK</div>
+            <div class="activities_card_title">AYI TAKİBİ</div>
+            <div class="activities_card_title">KUŞ GÖÇLERİ</div>
+        </div>
+        <div class="activities__card__items">
+            <div id="activities__card__items">4 Mevsim</div>
+            <div id="activities__card__items">Kış</div>
+            <div id="activities__card__items">İlkbahar,Yaz</div>
+            <div id="activities__card__items">Sonbahar,İlkbahar</div>
+        </div>
+    </div>
+
+
+
+    <!--User Section-->
+
+    <div class="users" id="users">
+        <div class="main_title">ZİYARETÇİ YORUMLARI</div>
+        <div class="title-line__"></div>
+        <div class="activities_rate_main_content">Aşağıda otelimizi ziyaret eden kıymetli misafirlerimizin yorumlarını bulabilirsiniz.</div>
+        <div class="users_wrapper">
+            <div class="users_card">
+                <div class="users_photo" id="users1"></div>
+                <div class="users_content">"Kışın en zorlu şartlarında kaldığımız bu otelde inanılmaz keyifli zamanlar geçirdik. Kış uykusuna yatan ayıları mağarada izleme fırsatı yakaladık." </br>
+                    <h3>EMILY GWENDSONN</h3>
+                </div>
+
+            </div>
+            <div class="users_card">
+                <div class="users_photo" id="users1"></div>
+                <div class="users_content" id="user_content">"Kışın en zorlu şartlarında kaldığımız bu otelde inanılmaz keyifli zamanlar geçirdik. Kış uykusuna yatan ayıları mağarada izleme fırsatı yakaladık." </br>
+                    <h3>EMILY GWENDSONN</h3>
+                </div>
+
+            </div>
+            <div class="users_card">
+                <div class="users_photo" id="users1"></div>
+                <div class="users_content">"Kışın en zorlu şartlarında kaldığımız bu otelde inanılmaz keyifli zamanlar geçirdik. Kış uykusuna yatan ayıları mağarada izleme fırsatı yakaladık." </br>
+                    <h3>EMILY GWENDSONN</h3>
+                </div>
+
+            </div>
+            <div class="users_card">
+                <div class="users_photo" id="users1"></div>
+                <div class="users_content" id="user_content">"Kışın en zorlu şartlarında kaldığımız bu otelde inanılmaz keyifli zamanlar geçirdik. Kış uykusuna yatan ayıları mağarada izleme fırsatı yakaladık." </br>
+                    <h3>EMILY GWENDSONN</h3>
+                </div>
+
+            </div>
+            <div class="users_card">
+                <div class="users_photo" id="users1"></div>
+                <div class="users_content">"Kışın en zorlu şartlarında kaldığımız bu otelde inanılmaz keyifli zamanlar geçirdik. Kış uykusuna yatan ayıları mağarada izleme fırsatı yakaladık."
+                    </br>
+                    <h3>EMILY GWENDSONN</h3>
+                </div>
+            </div>
+            <div class="users_card">
+                <div class="users_photo" id="users1"></div>
+                <div class="users_content" id="user_content">"Kışın en zorlu şartlarında kaldığımız bu otelde inanılmaz keyifli zamanlar geçirdik. Kış uykusuna yatan ayıları mağarada izleme fırsatı yakaladık."</br>
+                    <h3>EMILY GWENDSONN</h3>
+                </div>
+
+            </div>
+        </div>
+        <button type="button" class="users__btn"><a>DİĞER YORUMLAR</a></button>
+    </div>
+
+    <!--Contact Section-->
+
+    <div class="contact" id="contact">
+        <div class="main_title">İLETİŞİM</div>
+        <div class="title-line__"></div>
+        <div class="activities_rate_main_content">Sizler de aşağıdaki formu doldurarak Hotel California’da tatil yapma keyfini çıkarabilirsiniz. :)</div>
+        <div class="contact_wrapper">
+            <div class="contact_card">
+                <div class="contact_title">AD SOYAD</div>
+                <input id="ad" value="" name="ad" type="text" class="input" placeholder="ADI SOYADI..." required></input>
+
+
+            </div>
+            <div class="contact_card">
+                <div class="contact_title">E POSTA</div>
+                <input id="email" value="" name="email" type="email" class="input" placeholder="E-POSTA..." required></input>
+
+            </div>
+            <div class="contact_card">
+
+                <div class="contact_title">TELEFON</div>
+                <input id="telefon" value="" name="telefon" type="text" class="input" placeholder="+90..." required></input>
+            </div>
+            <div class="contact_card">
+
+                <div class="contact_title">GİRİŞ TARİHİ</div>
+                <input id="giris" value="" type="date" name="giris" required>
+
+            </div>
+            <div class="contact_card">
+                <div class="contact_title">ÇIKIŞ TARİHİ </div>
+                <input id="cikis" value="" type="date" name="cikis" required>
+
+            </div>
+            <div class="contact_card">
+
+                <button type="button" class="contact__btn" onclick="formKontrol()"><a>GÖNDER</a></button>
+
+            </div>
+        </div>
+        <div id="map"></div>
+    </div>
+
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <p class="website__rights">Death Valley National Park - Harrisburg - California</p>
+        <section class="social__media">
+            <div class="social__media--wrap">
+
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i
+            ></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-twitter"></i
+                  
+            ></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-instagram"></i
+                   
+            ></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-youtube"></i
+                   
+            ></a>
+
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
